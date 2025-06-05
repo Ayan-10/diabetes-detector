@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Diabetes Detector AI
+**Diabetes Detector AI** is a lightweight, intelligent web application that analyzes medical prescriptions and lab reports to detect signs of diabetes using OCR and AI. Users simply upload their report photo, and the system determines the likelihood of diabetes based on extracted data — categorized into RED, YELLOW, or GREEN status levels.
+💡 Bonus: If the report lacks critical data (e.g., glucose levels), the AI will prompt the user to provide missing information.
+
+📷 Upload your report → 🧠 AI reads and analyzes it → 🚦 Get a health status (RED / YELLOW / GREEN)
+
+---
+
+
+## Diagram
+
+
+![diabetes-detector drawio](https://github.com/user-attachments/assets/9e7b05ad-3c58-4b78-ac51-4d14a9d35add)
+
+
+---
+
+## 🚀 Features
+
+- ✅ Upload medical reports as images
+- ✅ Automatically extracts text (OCR) using Tesseract.js
+- ✅ Sends smart prompts to a free Hugging Face AI model for diagnosis
+- ✅ Asks for missing information if needed
+- ✅ Saves and fetches report history
+
+
 
 ## Getting Started
 
